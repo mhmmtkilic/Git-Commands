@@ -1,0 +1,44 @@
+# Depo Oluşturma ve Yönetme
+
+git init: Yeni bir Git deposu oluşturur.
+git clone: Mevcut bir Git deposunun klonunu oluşturur.
+git add: Dosyaları depolama alanına ekler.
+git commit: Depolama alanındaki değişiklikleri kaydeder.
+git branch: Dallar oluşturur, değiştirir ve siler.
+git checkout: Farklı dallara geçiş yapar.
+git merge: Dallar arasındaki değişiklikleri birleştirir.
+git push: Depolama alanındaki değişiklikleri uzak sunucuya gönderir.
+git pull: Uzak sunucudaki değişiklikleri yerel depoya çeker.
+git fetch: Uzak sunucudaki değişiklikleri yerel deponun uzak izleme şubesine indirir.
+git remote: Uzak sunucuları ekler, değiştirir ve siler.
+
+# Dosya Durumu ve Değişiklikleri
+
+git status: Depolama alanındaki değişiklikleri ve dosya durumunu gösterir.
+git diff: Dosyalardaki değişiklikleri satır satır gösterir.
+git log: Depo geçmişini ve yapılan commitleri gösterir.
+git reset: Depolama alanındaki değişiklikleri geri alır.
+git revert: Depolama alanındaki değişiklikleri geri alır ve ters commit oluşturur.
+git cherry-pick: Belirli commitleri seçerek farklı dallara uygulamanıza olanak tanır.
+
+# Çalışma Alanı Yönetimi
+
+git worktree: Birden fazla çalışma alanı yönetmenizi sağlar.
+git submodule: Alt modülleri eklemenizi ve yönetmenizi sağlar.
+
+# Yardım ve Bilgiler
+
+git help: Yardım dokümantasyonunu gösterir.
+git man: Belirli bir Git komutu için kullanım kılavuzunu gösterir.
+git info: Git hakkında genel bilgiler gösterir.
+
+# Diğer
+
+git config: Git ayarlarını konfigüre eder.
+git tag: Etiketler oluşturur, değiştirir ve siler.
+git stash: Depolama alanındaki değişiklikleri geçici olarak saklar.
+git rebase: Commitleri yeniden sıralamanızı ve değiştirilmiş bir geçmiş oluşturmanızı sağlar.
+git bisect: Hatalı bir commit'i bulmanıza yardımcı olur.
+git gc: Git deponuzu temizlemenizi ve optimize etmenizi sağlar.
+git archive: Belirli bir commit'teki dosyaları bir arşiv olarak dışa aktarmanızı sağlar.
+git show: Belirli bir commit'in içeriğini gösterir.
